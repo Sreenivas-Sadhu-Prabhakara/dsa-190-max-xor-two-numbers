@@ -12,6 +12,13 @@ Store numbers as 32-level paths in a 2-ary trie, most significant bit first. To 
 
 **Complexity:** O(n · 32) time, O(n · 32) trie nodes.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
